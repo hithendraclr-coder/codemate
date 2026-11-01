@@ -1,0 +1,1003 @@
+{
+  "Java": {
+    "id": "java",
+    "version": "15.0.2",
+    "hello": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, CodeMate!\");\n    }\n}",
+    "description": "A strongly typed, object-oriented language widely used for backend services, Android development, and enterprise software.",
+    "concepts": [
+      [
+        "Variables & types",
+        "Declare values with types such as int, double, boolean, and String. Local variables must be initialized before use."
+      ],
+      [
+        "Control flow",
+        "Use if/else, switch, for, while, and enhanced for loops to control execution."
+      ],
+      [
+        "Methods",
+        "Methods package reusable behavior. Parameters and return types are declared explicitly."
+      ],
+      [
+        "Arrays & Strings",
+        "Arrays have a fixed length. String is immutable; StringBuilder is useful for repeated modifications."
+      ],
+      [
+        "OOP",
+        "Classes, objects, encapsulation, inheritance, abstraction, interfaces, and polymorphism form Java's OOP foundation."
+      ],
+      [
+        "Collections",
+        "List, Set, Map, and Queue interfaces provide common data structures. ArrayList and HashMap are frequently used."
+      ],
+      [
+        "Exceptions",
+        "Use try/catch/finally and throw/throws to handle exceptional conditions."
+      ],
+      [
+        "Generics",
+        "Generics provide compile-time type safety for reusable classes and methods."
+      ],
+      [
+        "Streams & lambdas",
+        "Streams support declarative collection processing; lambdas represent functional interfaces."
+      ],
+      [
+        "File I/O",
+        "Use java.nio.file and java.io APIs for files, paths, and streams."
+      ]
+    ],
+    "dictionary": [
+      [
+        "JVM",
+        "Java Virtual Machine; runs Java bytecode."
+      ],
+      [
+        "JDK",
+        "Java Development Kit; includes tools for developing Java programs."
+      ],
+      [
+        "JRE",
+        "Java Runtime Environment; runtime libraries and JVM conceptually needed to run Java apps."
+      ],
+      [
+        "Class",
+        "A blueprint that defines state and behavior."
+      ],
+      [
+        "Object",
+        "An instance of a class."
+      ],
+      [
+        "Inheritance",
+        "A mechanism for deriving a class from another class."
+      ],
+      [
+        "Polymorphism",
+        "One interface or parent type can refer to different implementations."
+      ],
+      [
+        "Encapsulation",
+        "Keeping state and behavior together while controlling access."
+      ],
+      [
+        "Interface",
+        "A contract that classes can implement."
+      ],
+      [
+        "Exception",
+        "An event that disrupts normal program flow."
+      ]
+    ],
+    "resources": "Official Java learning portal: https://dev.java/learn/"
+  },
+  "Python": {
+    "id": "python",
+    "version": "3.10.0",
+    "hello": "print(\"Hello, CodeMate!\")",
+    "description": "A readable, general-purpose language popular for automation, data science, AI, scripting, and interviews.",
+    "concepts": [
+      [
+        "Variables & types",
+        "Names refer to objects; common types include int, float, bool, str, list, tuple, set, and dict."
+      ],
+      [
+        "Conditions & loops",
+        "Use if/elif/else, for, while, break, and continue."
+      ],
+      [
+        "Functions",
+        "Define functions with def; default parameters, keyword arguments, *args, and **kwargs help create flexible APIs."
+      ],
+      [
+        "Collections",
+        "Lists are mutable sequences, tuples are immutable sequences, sets hold unique values, and dictionaries map keys to values."
+      ],
+      [
+        "Comprehensions",
+        "List/dict/set comprehensions express collection transformations concisely."
+      ],
+      [
+        "Strings",
+        "Strings are immutable sequences of Unicode characters; slicing supports concise substring operations."
+      ],
+      [
+        "OOP",
+        "Classes define attributes and methods; inheritance and special methods support reusable designs."
+      ],
+      [
+        "Exceptions",
+        "Use try/except/else/finally and raise to manage errors."
+      ],
+      [
+        "Modules & packages",
+        "Import reusable code from modules and organize larger projects into packages."
+      ],
+      [
+        "Iterators & generators",
+        "Iterators produce values sequentially; yield creates generator functions."
+      ]
+    ],
+    "dictionary": [
+      [
+        "List",
+        "Mutable ordered sequence."
+      ],
+      [
+        "Tuple",
+        "Immutable ordered sequence."
+      ],
+      [
+        "Dictionary",
+        "Key-value mapping, commonly written with braces."
+      ],
+      [
+        "Set",
+        "Collection of unique hashable values."
+      ],
+      [
+        "Mutable",
+        "An object whose state can change."
+      ],
+      [
+        "Iterable",
+        "An object that can produce its members one at a time."
+      ],
+      [
+        "Generator",
+        "An iterator commonly created using yield."
+      ],
+      [
+        "PEP 8",
+        "The widely used Python style guide."
+      ],
+      [
+        "None",
+        "Python's value representing absence of a value."
+      ],
+      [
+        "Decorator",
+        "A callable that wraps or modifies another callable's behavior."
+      ]
+    ],
+    "resources": "Official Python tutorial: https://docs.python.org/3/tutorial/"
+  },
+  "JavaScript": {
+    "id": "javascript",
+    "version": "18.15.0",
+    "hello": "console.log(\"Hello, CodeMate!\");",
+    "description": "The core language of the web, used in browsers, servers, and full-stack applications.",
+    "concepts": [
+      [
+        "Variables",
+        "Use const by default and let when reassignment is needed; avoid var in modern code."
+      ],
+      [
+        "Types & coercion",
+        "JavaScript has primitive values and objects; use strict equality === to avoid many coercion surprises."
+      ],
+      [
+        "Functions",
+        "Functions can be declarations, expressions, or arrow functions; they are first-class values."
+      ],
+      [
+        "Arrays & objects",
+        "Arrays store ordered values; objects store properties and methods."
+      ],
+      [
+        "DOM",
+        "The Document Object Model lets browser JavaScript query and update page elements."
+      ],
+      [
+        "Events",
+        "Event listeners respond to clicks, keyboard input, form submissions, and other events."
+      ],
+      [
+        "Promises",
+        "Promises represent future completion or failure; async/await makes asynchronous code easier to read."
+      ],
+      [
+        "Modules",
+        "Use export and import to organize code across modules."
+      ],
+      [
+        "Closures",
+        "A closure retains access to its lexical scope after the outer function returns."
+      ],
+      [
+        "Error handling",
+        "Use try/catch and throw; handle rejected promises appropriately."
+      ]
+    ],
+    "dictionary": [
+      [
+        "DOM",
+        "Document Object Model; a structured representation of a web page."
+      ],
+      [
+        "Closure",
+        "A function together with its preserved lexical environment."
+      ],
+      [
+        "Hoisting",
+        "JavaScript's declaration processing behavior before execution."
+      ],
+      [
+        "Promise",
+        "An object representing eventual completion or failure of an asynchronous operation."
+      ],
+      [
+        "Callback",
+        "A function passed to another function for later invocation."
+      ],
+      [
+        "Event bubbling",
+        "An event propagating from a target toward ancestor elements."
+      ],
+      [
+        "JSON",
+        "A text format for exchanging structured data."
+      ],
+      [
+        "NaN",
+        "A special numeric value meaning Not-a-Number."
+      ],
+      [
+        "Scope",
+        "The region where an identifier is accessible."
+      ],
+      [
+        "API",
+        "A defined interface through which software components communicate."
+      ]
+    ],
+    "resources": "MDN JavaScript guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+  },
+  "C": {
+    "id": "c",
+    "version": "10.2.0",
+    "hello": "#include <stdio.h>\n\nint main(void) {\n    printf(\"Hello, CodeMate!\\n\");\n    return 0;\n}",
+    "description": "A procedural systems language that teaches memory, pointers, compilation, and low-level programming.",
+    "concepts": [
+      [
+        "Program structure",
+        "Include headers and define main; main typically returns an integer status code."
+      ],
+      [
+        "Types & variables",
+        "Use int, char, float, double, and carefully chosen types for values."
+      ],
+      [
+        "Conditions & loops",
+        "Use if/else, switch, for, while, and do-while."
+      ],
+      [
+        "Functions",
+        "Declare and define functions with parameter and return types."
+      ],
+      [
+        "Arrays & strings",
+        "C strings are null-terminated character arrays; prevent buffer overflows."
+      ],
+      [
+        "Pointers",
+        "Pointers store addresses. Understand dereferencing, pointer arithmetic, and NULL."
+      ],
+      [
+        "Memory management",
+        "Use malloc/calloc/realloc and free carefully when dynamic allocation is needed."
+      ],
+      [
+        "Structures",
+        "struct groups related fields into one custom type."
+      ],
+      [
+        "File handling",
+        "Use FILE pointers and functions such as fopen, fgets, fprintf, and fclose."
+      ],
+      [
+        "Preprocessor",
+        "Macros and #include directives are processed before compilation."
+      ]
+    ],
+    "dictionary": [
+      [
+        "Pointer",
+        "A variable that stores a memory address."
+      ],
+      [
+        "Dereference",
+        "Access the value at a pointer's address using *."
+      ],
+      [
+        "Array",
+        "A contiguous sequence of elements of the same type."
+      ],
+      [
+        "NULL",
+        "A null pointer constant."
+      ],
+      [
+        "Segmentation fault",
+        "A common runtime failure from invalid memory access."
+      ],
+      [
+        "Header file",
+        "A file commonly containing declarations and macros."
+      ],
+      [
+        "Undefined behavior",
+        "Program behavior for which the C standard imposes no requirements."
+      ],
+      [
+        "Stack",
+        "Memory commonly used for call frames and automatic local storage."
+      ],
+      [
+        "Heap",
+        "Memory region used for dynamic allocation."
+      ],
+      [
+        "Compiler",
+        "A program that translates source code into another representation, often machine code."
+      ]
+    ],
+    "resources": "C language reference: https://en.cppreference.com/w/c"
+  },
+  "C++": {
+    "id": "cpp",
+    "version": "10.2.0",
+    "hello": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, CodeMate!\" << endl;\n    return 0;\n}",
+    "description": "A high-performance language supporting procedural, object-oriented, and generic programming.",
+    "concepts": [
+      [
+        "Types & control flow",
+        "Use built-in types, conditions, loops, and functions."
+      ],
+      [
+        "References & pointers",
+        "References alias objects; pointers hold addresses and may be null."
+      ],
+      [
+        "Classes & RAII",
+        "Classes bundle state and behavior; RAII ties resource lifetime to object lifetime."
+      ],
+      [
+        "STL containers",
+        "vector, string, map, unordered_map, set, queue, and stack solve common problems."
+      ],
+      [
+        "Iterators & algorithms",
+        "Use standard algorithms such as sort, find, and lower_bound."
+      ],
+      [
+        "Templates",
+        "Templates enable generic functions and classes."
+      ],
+      [
+        "Memory safety",
+        "Prefer standard containers and smart pointers over manual new/delete in most application code."
+      ],
+      [
+        "Move semantics",
+        "Move operations can transfer resources instead of copying them."
+      ],
+      [
+        "Exceptions",
+        "Use try/catch and standard exception types when appropriate."
+      ],
+      [
+        "Modern C++",
+        "Learn auto, range-for, lambdas, smart pointers, and optional."
+      ]
+    ],
+    "dictionary": [
+      [
+        "STL",
+        "Standard Template Library, including containers, iterators, and algorithms."
+      ],
+      [
+        "RAII",
+        "Resource Acquisition Is Initialization; resource lifetime follows object lifetime."
+      ],
+      [
+        "Template",
+        "A compile-time mechanism for generic code."
+      ],
+      [
+        "Reference",
+        "An alias to an existing object."
+      ],
+      [
+        "Vector",
+        "A dynamically sized contiguous sequence container."
+      ],
+      [
+        "Iterator",
+        "An abstraction for traversing a container."
+      ],
+      [
+        "Smart pointer",
+        "An object that manages a dynamically allocated object's lifetime."
+      ],
+      [
+        "Namespace",
+        "A named scope used to organize identifiers."
+      ],
+      [
+        "Overloading",
+        "Using the same function/operator name with different signatures or meanings."
+      ],
+      [
+        "Undefined behavior",
+        "Behavior for which the language standard provides no requirements."
+      ]
+    ],
+    "resources": "C++ reference: https://en.cppreference.com/w/"
+  },
+  "C#": {
+    "id": "csharp",
+    "version": "6.12.0",
+    "hello": "using System;\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Hello, CodeMate!\");\n    }\n}",
+    "description": "A modern language on .NET used for web, desktop, cloud, and game development.",
+    "concepts": [
+      [
+        "Types & variables",
+        "Learn value types, reference types, var, nullable values, and type conversion."
+      ],
+      [
+        "Control flow",
+        "Use conditions, loops, pattern matching, and switch expressions."
+      ],
+      [
+        "Methods",
+        "Methods can have overloads, optional parameters, and named arguments."
+      ],
+      [
+        "Classes & records",
+        "Classes model reference objects; records are useful for data-centric models."
+      ],
+      [
+        "Interfaces & inheritance",
+        "Use interfaces and inheritance to define contracts and shared behavior."
+      ],
+      [
+        "Collections & LINQ",
+        "Lists, dictionaries, and LINQ support expressive data processing."
+      ],
+      [
+        "Exceptions",
+        "Use try/catch/finally and throw for exceptional cases."
+      ],
+      [
+        "Async/await",
+        "Write asynchronous operations without blocking the calling thread."
+      ],
+      [
+        "Generics",
+        "Create reusable, type-safe methods and types."
+      ],
+      [
+        "File & web APIs",
+        "Use .NET libraries for files, HTTP, JSON, and application development."
+      ]
+    ],
+    "dictionary": [
+      [
+        "CLR",
+        "Common Language Runtime, which executes .NET managed code."
+      ],
+      [
+        "LINQ",
+        "Language Integrated Query for querying collections and data sources."
+      ],
+      [
+        "NuGet",
+        "The .NET package manager and package ecosystem."
+      ],
+      [
+        "Interface",
+        "A contract describing members that implementing types provide."
+      ],
+      [
+        "Delegate",
+        "A type-safe reference to a method."
+      ],
+      [
+        "Async/await",
+        "Language constructs for asynchronous operations."
+      ],
+      [
+        "Record",
+        "A type designed for data-oriented modeling and value-based equality."
+      ],
+      [
+        "Namespace",
+        "A logical grouping of related types."
+      ],
+      [
+        "Garbage collection",
+        "Automatic reclamation of unreachable managed objects."
+      ],
+      [
+        "Nullable",
+        "A type or annotation representing that a value may be absent."
+      ]
+    ],
+    "resources": "Microsoft C# guide: https://learn.microsoft.com/en-us/dotnet/csharp/"
+  },
+  "Go": {
+    "id": "go",
+    "version": "1.16.2",
+    "hello": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, CodeMate!\")\n}",
+    "description": "A compiled language known for simple syntax, concurrency support, and cloud infrastructure tooling.",
+    "concepts": [
+      [
+        "Packages",
+        "Every Go source file belongs to a package; executable programs use package main."
+      ],
+      [
+        "Variables & types",
+        "Use var or := for declarations; Go is statically typed."
+      ],
+      [
+        "Functions",
+        "Functions can return multiple values, commonly an error alongside a result."
+      ],
+      [
+        "Slices & maps",
+        "Slices are flexible views over arrays; maps store key-value pairs."
+      ],
+      [
+        "Structs & methods",
+        "Structs group fields; methods attach behavior to a receiver type."
+      ],
+      [
+        "Interfaces",
+        "Interfaces describe behavior through method sets and are implemented implicitly."
+      ],
+      [
+        "Errors",
+        "Errors are values; handle returned errors explicitly."
+      ],
+      [
+        "Goroutines",
+        "Goroutines are lightweight concurrent execution units."
+      ],
+      [
+        "Channels",
+        "Channels communicate values between goroutines."
+      ],
+      [
+        "Testing",
+        "The testing package supports automated tests with go test."
+      ]
+    ],
+    "dictionary": [
+      [
+        "Goroutine",
+        "A lightweight concurrent function execution."
+      ],
+      [
+        "Channel",
+        "A typed conduit used to communicate between goroutines."
+      ],
+      [
+        "Slice",
+        "A dynamically sized descriptor over an underlying array."
+      ],
+      [
+        "Zero value",
+        "The default value for a variable declared without explicit initialization."
+      ],
+      [
+        "Interface",
+        "A set of method signatures that a type can satisfy implicitly."
+      ],
+      [
+        "Defer",
+        "Schedules a function call to run when the surrounding function returns."
+      ],
+      [
+        "Gofmt",
+        "The standard Go source formatter."
+      ],
+      [
+        "Module",
+        "A collection of Go packages versioned as a unit."
+      ],
+      [
+        "Race condition",
+        "A timing-dependent bug involving concurrent access."
+      ],
+      [
+        "Error value",
+        "A value representing an operation's failure."
+      ]
+    ],
+    "resources": "Official Go tour: https://go.dev/tour/"
+  },
+  "Rust": {
+    "id": "rust",
+    "version": "1.68.2",
+    "hello": "fn main() {\n    println!(\"Hello, CodeMate!\");\n}",
+    "description": "A systems language focused on performance and memory safety without a garbage collector.",
+    "concepts": [
+      [
+        "Variables & mutability",
+        "Bindings are immutable by default; use mut for mutable bindings."
+      ],
+      [
+        "Ownership",
+        "Each value has an owner; ownership rules help prevent memory errors."
+      ],
+      [
+        "Borrowing & references",
+        "References allow access without taking ownership; borrowing rules constrain aliases."
+      ],
+      [
+        "Structs & enums",
+        "Structs model records and enums model one-of-many variants."
+      ],
+      [
+        "Pattern matching",
+        "match and if let handle enum variants and structured values."
+      ],
+      [
+        "Option & Result",
+        "Option models presence/absence; Result models success or error."
+      ],
+      [
+        "Traits",
+        "Traits define shared behavior and enable generic constraints."
+      ],
+      [
+        "Lifetimes",
+        "Lifetime annotations describe reference relationships when needed."
+      ],
+      [
+        "Collections",
+        "Vec, String, HashMap, and iterators are core tools."
+      ],
+      [
+        "Cargo",
+        "Cargo builds projects, manages dependencies, and runs tests."
+      ]
+    ],
+    "dictionary": [
+      [
+        "Ownership",
+        "The rule determining which binding owns a value."
+      ],
+      [
+        "Borrowing",
+        "Using a reference to a value without taking ownership."
+      ],
+      [
+        "Lifetime",
+        "The scope over which a reference is valid."
+      ],
+      [
+        "Trait",
+        "A definition of behavior that types can implement."
+      ],
+      [
+        "Enum",
+        "A type that can represent one of several variants."
+      ],
+      [
+        "Option",
+        "An enum representing Some(value) or None."
+      ],
+      [
+        "Result",
+        "An enum representing Ok(value) or Err(error)."
+      ],
+      [
+        "Cargo",
+        "Rust's build tool and package manager."
+      ],
+      [
+        "Crate",
+        "A compilation unit in Rust."
+      ],
+      [
+        "Pattern matching",
+        "Selecting behavior based on a value's structure."
+      ]
+    ],
+    "resources": "The Rust Book: https://doc.rust-lang.org/book/"
+  },
+  "Ruby": {
+    "id": "ruby",
+    "version": "3.0.1",
+    "hello": "puts \"Hello, CodeMate!\"",
+    "description": "A dynamic, expressive language known for developer-friendly syntax and web development.",
+    "concepts": [
+      [
+        "Variables & types",
+        "Variables do not require explicit type declarations."
+      ],
+      [
+        "Collections",
+        "Arrays and hashes are central data structures."
+      ],
+      [
+        "Methods & blocks",
+        "Methods define reusable behavior; blocks, procs, and lambdas support callbacks."
+      ],
+      [
+        "Control flow",
+        "Use if/unless, case, while, and iterators such as each."
+      ],
+      [
+        "Classes & modules",
+        "Classes model objects; modules provide namespaces and mixins."
+      ],
+      [
+        "Enumerable",
+        "Enumerable methods such as map, select, and reduce simplify collection processing."
+      ],
+      [
+        "Exceptions",
+        "Use begin/rescue/ensure for exception handling."
+      ],
+      [
+        "Symbols",
+        "Symbols are immutable identifiers often used as hash keys."
+      ],
+      [
+        "File handling",
+        "Use File and IO APIs to read and write files."
+      ],
+      [
+        "Testing",
+        "Minitest and RSpec are common testing options."
+      ]
+    ],
+    "dictionary": [
+      [
+        "Symbol",
+        "An immutable identifier commonly used as a hash key."
+      ],
+      [
+        "Block",
+        "A chunk of code passed to a method."
+      ],
+      [
+        "Mixin",
+        "Behavior included from a module into a class."
+      ],
+      [
+        "Gem",
+        "A packaged Ruby library."
+      ],
+      [
+        "Enumerable",
+        "A module providing collection iteration methods."
+      ],
+      [
+        "Nil",
+        "Ruby's object representing absence of a value."
+      ],
+      [
+        "Duck typing",
+        "An object's suitability is based on behavior it supports."
+      ],
+      [
+        "Proc",
+        "An object that stores a block for later execution."
+      ],
+      [
+        "Rails",
+        "A popular Ruby web application framework."
+      ],
+      [
+        "Exception",
+        "An object representing an exceptional condition."
+      ]
+    ],
+    "resources": "Official Ruby documentation: https://www.ruby-lang.org/en/documentation/"
+  },
+  "PHP": {
+    "id": "php",
+    "version": "8.2.3",
+    "hello": "<?php\necho \"Hello, CodeMate!\\n\";\n?>",
+    "description": "A server-side scripting language widely used for web applications and content management systems.",
+    "concepts": [
+      [
+        "Variables & types",
+        "Variables begin with $; PHP supports scalar, array, object, and other types."
+      ],
+      [
+        "Conditions & loops",
+        "Use if/else, switch, for, foreach, while, and do-while."
+      ],
+      [
+        "Functions",
+        "Define reusable functions with function and optionally declare parameter/return types."
+      ],
+      [
+        "Arrays",
+        "PHP arrays act as ordered maps and can be indexed or associative."
+      ],
+      [
+        "Strings",
+        "Use interpolation, concatenation with dot, and standard string functions."
+      ],
+      [
+        "OOP",
+        "Classes support properties, methods, inheritance, interfaces, and traits."
+      ],
+      [
+        "Forms & HTTP",
+        "Validate input and understand request methods and response handling."
+      ],
+      [
+        "Database access",
+        "Use PDO or database-specific extensions with parameterized queries."
+      ],
+      [
+        "Exceptions",
+        "Use try/catch/finally and throw."
+      ],
+      [
+        "Security",
+        "Escape output, validate input, protect sessions, and use prepared SQL statements."
+      ]
+    ],
+    "dictionary": [
+      [
+        "PDO",
+        "PHP Data Objects, a consistent database access interface."
+      ],
+      [
+        "Associative array",
+        "An array whose keys are named or otherwise non-sequential."
+      ],
+      [
+        "Session",
+        "Server-side state associated with a user across requests."
+      ],
+      [
+        "Composer",
+        "A dependency manager for PHP."
+      ],
+      [
+        "Trait",
+        "A reusable set of methods for classes."
+      ],
+      [
+        "Namespace",
+        "A way to organize PHP identifiers and avoid naming conflicts."
+      ],
+      [
+        "Prepared statement",
+        "A parameterized database query that separates SQL structure from values."
+      ],
+      [
+        "XSS",
+        "Cross-site scripting, where untrusted content executes as script."
+      ],
+      [
+        "CSRF",
+        "Cross-site request forgery, an attack that tricks a browser into making unwanted requests."
+      ],
+      [
+        "MVC",
+        "Model-view-controller, a common application architecture."
+      ]
+    ],
+    "resources": "Official PHP manual: https://www.php.net/manual/en/"
+  },
+  "SQL": {
+    "id": "sql",
+    "version": "3.27.2",
+    "hello": "-- SQL runner support depends on the selected compiler service.\nSELECT 'Hello, CodeMate!' AS message;",
+    "description": "A language for querying and managing relational databases; this runner may not support SQL execution on every online compiler service.",
+    "concepts": [
+      [
+        "SELECT",
+        "Choose columns or expressions from tables."
+      ],
+      [
+        "WHERE",
+        "Filter rows before grouping."
+      ],
+      [
+        "ORDER BY",
+        "Sort query results."
+      ],
+      [
+        "GROUP BY",
+        "Aggregate rows by one or more expressions."
+      ],
+      [
+        "HAVING",
+        "Filter grouped results, often using aggregates."
+      ],
+      [
+        "JOIN",
+        "Combine rows from related tables using join conditions."
+      ],
+      [
+        "Subqueries",
+        "Use a query inside another query."
+      ],
+      [
+        "CTEs",
+        "WITH clauses name temporary query results for one statement."
+      ],
+      [
+        "Window functions",
+        "Compute values across related rows without collapsing them into groups."
+      ],
+      [
+        "Indexes & transactions",
+        "Indexes can speed up lookups; transactions group operations with ACID properties."
+      ]
+    ],
+    "dictionary": [
+      [
+        "Primary key",
+        "Column or columns uniquely identifying a row."
+      ],
+      [
+        "Foreign key",
+        "Constraint linking values to a key in another table."
+      ],
+      [
+        "Normalization",
+        "Designing tables to reduce redundancy and update anomalies."
+      ],
+      [
+        "JOIN",
+        "Combines rows from tables based on a relationship."
+      ],
+      [
+        "Index",
+        "A data structure that can speed up retrieval at a storage and maintenance cost."
+      ],
+      [
+        "Transaction",
+        "A logical unit of database work."
+      ],
+      [
+        "ACID",
+        "Atomicity, consistency, isolation, and durability."
+      ],
+      [
+        "NULL",
+        "Represents missing or unknown information, not ordinary zero or empty text."
+      ],
+      [
+        "Aggregate",
+        "A function such as COUNT, SUM, AVG, MIN, or MAX."
+      ],
+      [
+        "View",
+        "A named query presented like a virtual table."
+      ]
+    ],
+    "resources": "PostgreSQL tutorial: https://www.postgresql.org/docs/current/tutorial.html"
+  }
+}
